@@ -7,7 +7,16 @@ const userSchema = new Schema<Iuser>({
   },
   id: {
     type: String,
+  },
+  family: {
+    name: {
+      type: String
+    },
+    age: {
+      type: String
+    }
   }
 })
 
 export const userModel = model<Iuser>("userModel", userSchema)
+

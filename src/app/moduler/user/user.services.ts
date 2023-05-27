@@ -11,10 +11,3 @@ export const getUsersToDb = async () => {
   const users = await userModel.find()
   return users
 }
-
-// const user = new userModel({
-//   name: "aktaer",
-//   id: "12"
-// })
-// user.save()
-// console.log(user)

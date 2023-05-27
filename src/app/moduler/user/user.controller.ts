@@ -5,7 +5,7 @@ export const createUsers = async (req: Request, res: Response, next: NextFunctio
   const data = req.body
   const user = await createUsersToDb(data);
   res.status(200).json({
-    status: "wow success",
+    status: "success",
     data: user,
   })
 }
