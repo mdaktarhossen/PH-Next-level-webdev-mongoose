@@ -1,0 +1,2 @@
+1/ interface-> schema&model->route->controller / router fun -> services
+model r uppor database //server r quary hoy,
